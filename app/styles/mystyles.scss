@@ -1,3 +1,5 @@
+$greyblack: rgb(49, 49, 49);
+
 body {
 	font-family: "Varela Round", Helvetica, Arial, sans-serif;
 }
@@ -5,12 +7,15 @@ body {
 // Contact Modal Contents
 .avatar {
 	width: 145px;
-	border-radius: 20px;
-	margin-left: 195px;
+	border-radius: 30px;
+	margin-left: 15px;
+	// margin-left: 195px;
+	padding-bottom: 10px;
 }
 
 .get-in-touch {
 	text-align: center;
+	padding-top: 10px;
 }
 
 .email {
@@ -24,9 +29,52 @@ body {
 .social-media {
 	display: inline-block;
 	width: 80px;
-	margin-left: 20px;
+	margin-left: 5px;
+}
+
+.wordpress {
+	width:110px;
 }
 
 .final-project {
 	width:500px;
+	margin-left: 95px;
+}
+// .final-project {
+// 	position: absolute;
+// 	width: 200px;
+// 	margin-left: -55px;
+// }
+.final-project:hover {
+	width:900px;
+	margin-left: -105px;
+}
+
+.responsive-hw {
+	width: 500px;
+	margin-left: 95px;
+}
+// .responsive-hw {
+// 	position: absolute;
+// 	width: 200px;
+// 	margin-left: 165px;
+
+// }
+.responsive-hw:hover {
+	width:900px;
+	margin-left: -105px;
+}
+
+.git-smack {
+	width: 500px;
+	margin-left: 95px;
+}
+// .git-smack {
+// 	position: absolute;
+// 	width: 200px;
+// 	margin-left: 385px;
+// }
+.git-smack:hover {
+	width:900px;
+	margin-left: -105px;
 }

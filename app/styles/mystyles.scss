@@ -1,7 +1,17 @@
 $greyblack: rgb(49, 49, 49);
 
 body {
-	font-family: "Varela Round", Helvetica, Arial, sans-serif;
+	// font-family: "Varela Round", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+h1 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.content {
+	width: 1250px;
+	margin-left: -260px;
 }
 
 // Contact Modal Contents
@@ -36,23 +46,29 @@ body {
 	width:110px;
 }
 
+// My Project Showcase
+.my-projects {
+	width: 1250px;
+	display: inline-block;
+}
+
 .final-project {
 	width:500px;
-	margin-left: 95px;
+	margin-left: -200px;
 }
 // .final-project {
 // 	position: absolute;
 // 	width: 200px;
 // 	margin-left: -55px;
 // }
-.final-project:hover {
-	width:900px;
-	margin-left: -105px;
-}
+// .final-project:hover {
+// 	width:900px;
+// 	margin-left: -105px;
+// }
 
 .responsive-hw {
 	width: 500px;
-	margin-left: 95px;
+	margin-left: -200px;
 }
 // .responsive-hw {
 // 	position: absolute;
@@ -60,21 +76,77 @@ body {
 // 	margin-left: 165px;
 
 // }
-.responsive-hw:hover {
-	width:900px;
-	margin-left: -105px;
-}
+// .responsive-hw:hover {
+// 	width:900px;
+// 	margin-left: -105px;
+// }
 
 .git-smack {
 	width: 500px;
-	margin-left: 95px;
+	margin-left: -200px;
 }
 // .git-smack {
 // 	position: absolute;
 // 	width: 200px;
 // 	margin-left: 385px;
 // }
-.git-smack:hover {
-	width:900px;
-	margin-left: -105px;
+// .git-smack:hover {
+// 	width:900px;
+// 	margin-left: -105px;
+// }
+
+.mobber {
+	width: 500px;
+	margin-left: -200px;
+}
+// .mobber:hover {
+// 	width:900px;
+// 	margin-left: -105px;
+// }
+
+.matchmaker {
+	width: 500px;
+	margin-left: -200px;
+}
+
+.project-titles {
+	text-align: center;
+	margin-left: -200px;
+}
+
+.irylogo {
+
+}
+
+a {
+	color: #cd822b;
+}
+a:hover {
+	color: #965000;
+}
+a:focus {
+	color: #965000;
+}
+// a:active {
+// 	color: #965000;
+// }
+// a:visited {
+// 	color: #965000;
+// }
+
+.btn-primary {
+	background-color: #cd822b;
+	border-color: #854700
+}
+.btn-primary:hover {
+	background-color: #965000;
+	border-color: #854700
+}
+.btn-primary:active {
+	background-color: #965000;
+	border-color: #854700
+}
+.btn-primary:focus {
+	background-color: #965000;
+	border-color: #854700
 }

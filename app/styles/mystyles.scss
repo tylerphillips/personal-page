@@ -150,3 +150,55 @@ a:focus {
 	background-color: #965000;
 	border-color: #854700
 }
+
+// Slideshow
+.slideshow {
+  margin: 20px 0;
+  text-align: center;
+}
+.slideshow ul {
+  background-color: #cd822b;
+  border: 1px solid #000000;
+  display: block;
+  list-style: none outside none;
+  margin: 10px auto;
+  padding: 5px 0;
+  width: 590px;
+}
+.slideshow li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #000000;
+  margin: 5px;
+  padding: 5px;
+}
+.slideshow li.active, .slideshow li:hover {
+  cursor: pointer;
+  background: none repeat scroll 0 0 #CCCCCC;
+}
+.slideshow li img {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 80px;
+  height: 53px;
+}
+.slideshow > img {
+  border: 1px solid #000000;
+  width: 800px;
+  min-height: 300px;
+}
+
+.slide-list ul {
+	width: 590px;
+}
+
+.modal-dialog {
+	width: 1040px;
+}
+
+.jumbotron {
+	padding-top: 0px;
+	margin-top: 30px;
+}

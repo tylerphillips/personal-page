@@ -46,21 +46,24 @@ body {
 }
 
 .cover {
-  border-radius: 7px 7px 0px 0px;
-  width: 700px;
-  left: -60px;
-  top: 0px;
+  border-radius: 7px;
+  // width: 700px;
+  width: 210px;
+  // left: -60px;
+  // top: 0px;
+  left: 180px;
+  top: 20px;
   position: relative;
   height: 250px;
   // background: url("https://scontent-a.xx.fbcdn.net/hphotos-ash2/379833_2470486410143_1341175300_n.jpg");
-  background: url("https://scontent-a.xx.fbcdn.net/hphotos-frc3/1045249_10200395045707350_69276908_n.jpg");
-  // background: url("https://github.com/tylerphillips/tylerphillips.github.io/blob/master/app/images/tylerphillips.jpg?raw=true");
+  // background: url("https://scontent-a.xx.fbcdn.net/hphotos-frc3/1045249_10200395045707350_69276908_n.jpg");
+  background: url("https://github.com/tylerphillips/tylerphillips.github.io/blob/master/app/images/tylerphillips.jpg?raw=true");
   background-size: cover;
   color: $black0;
   h1 {
     display: none;
     position: absolute;
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 7px;
     top: -8%;
     left: 0%;
     // @include translate(-50%, -50%);

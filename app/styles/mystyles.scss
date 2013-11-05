@@ -157,7 +157,8 @@ a:focus {
   text-align: center;
 }
 .slideshow ul {
-  background-color: #cd822b;
+  background-color: white;
+  // background-color: #cd822b;
   border: 1px solid #000000;
   display: block;
   list-style: none outside none;
@@ -201,4 +202,71 @@ a:focus {
 .jumbotron {
 	padding-top: 0px;
 	margin-top: 30px;
+}
+
+.landing-text {
+	margin-top: 20px;
+}
+
+// Media Queries
+@media (max-width: 1000px) {
+	.modal-dialog {
+		width: 800px;
+	}
+
+	.slideshow > img {
+		width: 650px;
+		min-height: 300px;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.social-media-group {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 765px) {
+	.modal-dialog {
+		width: 650px;
+	}
+
+	.slideshow > img {
+		width: 500px;
+		min-height: 300px;
+	}
+
+}
+
+@media (max-width: 765px) {
+	.modal-dialog {
+		width: 450px;
+	}
+	.slideshow > img {
+		width: 350px;
+		min-height: 300px;
+	}
+	.slideshow ul {
+		width: 385px;
+	}
+}
+
+@media (max-width: 400px) {
+	// .modal-dialog {
+	// 	width: 450px;
+	// }
+	// .slideshow > img {
+	// 	width: 350px;
+	// 	min-height: 300px;
+	// }
+	.slideshow ul {
+		width: 340px;
+	}
+	.modal-body {
+		width: 380px;
+	}
+	.modal-footer {
+	padding: 19px 60px 20px;
+	}
 }

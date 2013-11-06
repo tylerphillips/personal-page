@@ -1,5 +1,8 @@
 node_modules
+<<<<<<< HEAD
 dist
+=======
+>>>>>>> ffb47deb488ab04778045e507851a53e8dcf7182
 .tmp
 .sass-cache
 app/bower_components

@@ -1,0 +1,153 @@
+$fadedblack: #161616;
+$linkgrey: #AFAFAF;
+
+body {
+ 	width: 100%
+}
+
+.container {
+	max-width: 100%;
+}
+
+h1 {
+	color: $fadedblack;
+	font-family: 'Arizonia', cursive;
+	font-size: 50px;
+}
+
+.head-link {
+	float: right;
+	display: inline-block;
+	margin-top: -50px;
+	font-size: 20px;
+	margin-right: 65px;
+
+}
+
+.head-link a {
+	color: $fadedblack;
+	padding-right: 3px;
+	font-family: 'Poller One', cursive;
+}
+.head-link a:hover {
+	text-decoration: none;
+	color: $linkgrey
+}
+
+.home {
+	display: inline-block;
+}
+.portfolio {
+	display: inline-block;
+}
+.about {
+	display: inline-block;
+}
+
+.intro {
+	background-color: $fadedblack;
+	color: white;
+	padding: 40px;
+	width: 100%;
+	margin-top: -30px;
+
+}
+
+h2 {
+	line-height: 45px;
+	font-family: 'Poller One', cursive;
+	text-align: center;
+}
+
+// @keyframes slidy {
+// 20% { left: 0%; }
+// 25% { left: -100%; }
+// 45% { left: -100%; }
+// 50% { left: -200%; }
+// 70% { left: -200%; }
+// 75% { left: -300%; }
+// 95% { left: -300%; }
+// 100% { left: -400%; }
+// }
+
+// body { margin: 0; } 
+// div#slider { overflow: hidden; }
+// div#slider figure img { width: 20%; }
+// div#slider figure { 
+//   position: relative;
+//   width: 500%;
+//   margin: 0;
+//   left: 0;
+//   font-size: 0;
+//   animation: 30s slidy infinite; 
+// }
+
+// .final-project {
+// 	margin-top: -540px;
+// }
+// .mobber {
+// 	margin-top: -295px;
+// }
+// .chatprogram {
+// 	margin-top: -805px;
+// }
+// .matchmaker {
+// 	margin-top: -805px;
+// }
+
+// Slideshow
+.slideshow {
+	margin: 20px 0;
+	text-align: center;
+}
+.slideshow ul {
+	background-color: white;
+	// background-color: #cd822b;
+	border: 1px solid #000000;
+	display: block;
+	list-style: none outside none;
+	margin: 10px auto;
+	padding: 5px 0;
+	// width: 590px;
+	width: 100%;
+	margin-top: -20px;
+}
+.slideshow li {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #000000;
+	margin: 5px;
+	padding: 5px;
+}
+.slideshow li.active, .slideshow li:hover {
+	cursor: pointer;
+	background: none repeat scroll 0 0 #CCCCCC;
+}
+.slideshow li img {
+	border: 1px solid #000000;
+	margin: 5px;
+	width: 80px;
+	height: 53px;
+}
+.slideshow > img {
+	border: 1px solid #000000;
+	// width: 800px;
+	width: 100%;
+	min-height: 300px;
+}
+
+.slide-list ul {
+	width: 590px;
+}
+
+.img-cap {
+	font-family: 'Poller One', cursive;
+	font-size: 30px;
+	background-color: $fadedblack;
+	padding: 30px;
+	color: white;
+}
+
+

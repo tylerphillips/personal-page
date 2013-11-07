@@ -100,6 +100,34 @@ h2 {
 	text-align: center;
 }
 
+.project-div {
+	padding-left: 70px;
+	padding-right: 70px;
+
+}
+.project-image {
+	display: inline-block;
+	
+}
+.project-description {
+	display: inline-block;
+	max-width: 530px;
+	top: 450px;
+	position: absolute;
+	width: 480px;
+
+}
+.project-title {
+	display: inline-block;
+	font-family: 'Poller One', cursive;
+	max-width: 530px;
+	
+}
+.project-sum {
+	max-width: 530px;
+	
+}
+
 // @keyframes slidy {
 // 20% { left: 0%; }
 // 25% { left: -100%; }

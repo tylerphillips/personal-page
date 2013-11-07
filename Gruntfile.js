@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 // Generated on 2013-10-26 using generator-webapp 0.4.3
-=======
 // Generated on 2013-11-01 using generator-webapp 0.4.3
->>>>>>> ffb47deb488ab04778045e507851a53e8dcf7182
 'use strict';
 
 // # Globbing

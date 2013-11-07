@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-console.log('\'Allo \'Allo!');
-=======
 $(function () {
   $('.slide-list').wrap('<div class="slideshow"></div>');
   $('.slideshow').append('<img alt="" src="" /><div class="img-cap"></div>');
@@ -25,4 +22,3 @@ $(function () {
     $this.addClass('active');
   });
 });
->>>>>>> ffb47deb488ab04778045e507851a53e8dcf7182

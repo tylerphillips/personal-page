@@ -1,18 +1,55 @@
-$fadedblack: #161616;
+$fadedblack: #1A1A1A;
 $linkgrey: #AFAFAF;
 
+.fork {
+	z-index: 101;
+}
+
+.ss-icon {
+	display: inline-block;
+	font-size: 45px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: $fadedblack
+}
+
 body {
- 	width: 100%
+ 	width: 100%;
+ 	background: white;
+
+}
+
+.content {
+	margin-top: 10px;
+
 }
 
 .container {
 	max-width: 100%;
 }
 
+header {
+	position: fixed;
+	min-width: 940px;
+	height: 90px;
+	top: -11px;
+	z-index:100;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.primary-header {
+	background-color: white;
+	// height: 91px;
+	text-align: center;
+}
+
 h1 {
 	color: $fadedblack;
-	font-family: 'Arizonia', cursive;
+	// font-family: 'Arizonia', cursive;
+	font-family: 'Poller One', cursive;
 	font-size: 50px;
+	display: inline-block;
 }
 
 .head-link {
@@ -45,11 +82,15 @@ h1 {
 }
 
 .intro {
+	position: relative;
+	top:80px;
 	background-color: $fadedblack;
 	color: white;
 	padding: 40px;
 	width: 100%;
-	margin-top: -30px;
+	margin-top: -10px;
+	z-index: -10;
+
 
 }
 
@@ -99,6 +140,8 @@ h2 {
 .slideshow {
 	margin: 20px 0;
 	text-align: center;
+	margin-top: 100px;
+
 }
 .slideshow ul {
 	background-color: white;

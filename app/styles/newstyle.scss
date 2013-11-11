@@ -25,7 +25,12 @@ body {
 
 }
 
+a {
+	display: inline-block;
+}
+
 .container {
+	width: auto;
 	max-width: 100%;
 }
 
@@ -89,7 +94,7 @@ h1 {
 	background-color: $fadedblack;
 	color: white;
 	padding: 40px;
-	padding-bottom: 60px;
+	padding-bottom: 70px;
 	width: 100%;
 	margin-top: -10px;
 	z-index: -10;
@@ -98,9 +103,10 @@ h1 {
 .more {
 	color: white;
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	cursor: pointer;
+	margin-top: -5px;
 }
 .more:hover {
 	color: $linkblue;
@@ -122,11 +128,16 @@ h2 {
 }
 .project-image {
 	display: inline-block;
-	width: 700px;
-	
+	width: 600px;
 }
+
+.project-link {
+	display: inline-block;
+}
+
 .project-description {
 	display: inline-block;
+	width: 50%;
 }
 .project-title {
 	display: inline-block;
@@ -134,18 +145,14 @@ h2 {
     font-size: 45px;
     line-height: 65px;
     position: relative;
-	top: -60px;
-	border-bottom: solid 3px $fadedblack;
+    border-bottom: solid 3px $fadedblack;
 }
 .project-sum {
 	display: inline-block;
-	float: right;
 	font-family: 'Vollkorn', Georgia, Times, serif;
     font-size: 25px;
 	line-height: 30px;
-	width: 500px;
-	margin-right: 200px;
-	margin-top: -365px;
+	width: 100%;
 }
 .lum-div {
 	// background-color: $linkblue;
@@ -293,6 +300,100 @@ h2 {
 	background-color: $fadedblack;
 	padding: 30px;
 	color: white;
+}
+
+@media only screen and (max-width: 1215px){
+	.project-description {
+		width: 40%;
+	}
+	.project-title {
+		font-size: 40px;
+		
+	}
+	.project-sum {
+		font-size: 20px;
+
+	}
+	.project-image {
+		width: 550px;
+	}
+}
+
+@media only screen and (max-width: 1065px){
+	.project-description {
+		width: 40%;
+	}
+	.project-title {
+		font-size: 35px;
+		
+	}
+	.project-sum {
+		font-size: 15px;
+
+	}
+	.project-image {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 980px){
+	.project-description {
+		width: 40%;
+	}
+	.project-title {
+		font-size: 20px;
+		
+	}
+	.project-sum {
+		font-size: 15px;
+
+	}
+	.project-image {
+		width: 450px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.project-description {
+		width: 70%;
+		margin-top: -80px;
+		margin-left: 55px;
+		text-align: center;
+
+	}
+	.project-title {
+		font-size: 28px;
+		line-height: 45px;
+		
+	}
+	.project-sum {
+		font-size: 15px;
+
+	}
+	.project-image {
+		width: 395px;
+		margin-top: -80px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.more {
+		font-size: 30px;
+		margin-top: -35px;
+	}
+	.intro {
+		padding-bottom: 100px;
+	}
+	
+	.primary-header {
+		text-align: left;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	.ss-icon {
+		font-size: 22px;
+	}
 }
 
 

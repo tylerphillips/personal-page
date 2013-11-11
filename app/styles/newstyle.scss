@@ -138,6 +138,8 @@ h2 {
 .project-description {
 	display: inline-block;
 	width: 50%;
+	position: relative;
+	top: 45px;
 }
 .project-title {
 	display: inline-block;
@@ -145,6 +147,7 @@ h2 {
     font-size: 45px;
     line-height: 65px;
     position: relative;
+	top: 40px;
     border-bottom: solid 3px $fadedblack;
 }
 .project-sum {
@@ -153,6 +156,7 @@ h2 {
     font-size: 25px;
 	line-height: 30px;
 	width: 100%;
+	margin-top: 45px;
 }
 .lum-div {
 	// background-color: $linkblue;
@@ -339,13 +343,15 @@ h2 {
 @media only screen and (max-width: 980px){
 	.project-description {
 		width: 40%;
+		position: relative;
+		top: 105px;
 	}
 	.project-title {
-		font-size: 20px;
+		font-size: 35px;
 		
 	}
 	.project-sum {
-		font-size: 15px;
+		font-size: 20px;
 
 	}
 	.project-image {
@@ -353,12 +359,76 @@ h2 {
 	}
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 770px){
+	.project-description {
+		width: 40%;
+		position: relative;
+		top: 100px;
+		left: -20px;
+	}
+	.project-title {
+		font-size: 25px;
+		line-height: 40px;
+		
+	}
+	.project-sum {
+		font-size: 15px;
+
+	}
+	.project-image {
+		width: 405px;
+	}
+	.primary-header {
+		text-align: left;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.more {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 680px){
+	.primary-header {
+	}
+	.project-image {
+		width: 365px;
+	}
+	.project-title {
+		font-size: 28px;
+	}
+	.project-sum {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 615px){
+	.project-image {
+		width: 315px;
+	}
+	.project-title {
+		line-height: 45px;
+	}
+	.project-description {
+		position: relative;
+		left: 5px;
+	}
+	h1 {
+		font-size: 55px;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
 	.project-description {
 		width: 70%;
 		margin-top: -80px;
 		margin-left: 55px;
 		text-align: center;
+		position: relative;
+		top: 0px;
+		left: 0px;
 
 	}
 	.project-title {
@@ -387,12 +457,19 @@ h2 {
 	
 	.primary-header {
 		text-align: left;
+		box-shadow: 2px 2px 2px #444444;
 	}
 	h1 {
 		font-size: 40px;
 	}
 	.ss-icon {
 		font-size: 22px;
+	}
+	.project-div {
+		width: 100%;
+	}
+	.content {
+	width: 100%;
 	}
 }
 

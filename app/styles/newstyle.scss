@@ -48,6 +48,7 @@ header {
 	background-color: white;
 	// height: 91px;
 	text-align: center;
+	box-shadow: 2px 2px 2px #444444;
 }
 
 h1 {
@@ -102,15 +103,19 @@ h1 {
 }
 
 .more {
-	color: white;
+	color: $linkblue;
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	text-align: center;
 	cursor: pointer;
 	margin-top: -5px;
+	position: relative;
+	
+	width:100%;
+
 }
 .more:hover {
-	color: $linkblue;
+	color: #2a6496;
 }
 
 
@@ -163,6 +168,10 @@ h2 {
 	// background-color: $linkblue;
 	background-color: $fadedblack;
 }
+.about-div {
+	// background-color: $linkblue;
+	background-color: $fadedblack;
+}
 .lum-title {
 	color: white;
 	border-bottom: solid 3px white;
@@ -171,11 +180,19 @@ h2 {
 	color: white;
 }
 
+.about-sum {
+	color: white;
+}
+
 .chat-div {
 	// background-color: $linkblue;
 	background-color: $fadedblack;
 }
 .chat-title {
+	color: white;
+	border-bottom: solid 3px white;
+}
+.about-title {
 	color: white;
 	border-bottom: solid 3px white;
 }
@@ -251,6 +268,43 @@ h2 {
 // }
 
 // Slideshow
+.prof-pic {
+	box-shadow: 2px 2px 3px darkgray;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.about-img {
+	display: inline-block;
+	margin-left: 55px;
+	width: 25%;
+	padding-bottom: 55px;
+	margin-top: -200px;
+}
+
+.about-sum {
+	display: inline-block;
+	width: 55%;
+	padding-left: 40px;
+	margin-top: -20px;
+	position: relative;
+	top: 5px;
+}
+.about-title {
+	display: inline-block;
+}
+.about-text {
+	padding-top: 50px;
+	width: 115%;
+
+}
+
 .slideshow {
 	margin: 20px 0;
 	text-align: center;
@@ -415,7 +469,7 @@ h2 {
 		width: 315px;
 	}
 	.project-title {
-		line-height: 45px;
+		line-height: 35px;
 	}
 	.project-description {
 		position: relative;
@@ -428,6 +482,10 @@ h2 {
 
 
 @media only screen and (max-width: 575px){
+	.about-sum {
+		padding-left: 30px;
+	}
+
 	.project-description {
 		width: 70%;
 		margin-top: -80px;
@@ -440,7 +498,7 @@ h2 {
 	}
 	.project-title {
 		font-size: 28px;
-		line-height: 45px;
+		line-height: 35px;
 		
 	}
 	.project-sum {
@@ -479,6 +537,14 @@ h2 {
 	.content {
 	width: 100%;
 	}
+	.about-text {
+		width: 90%;
+
+	}
+
+	.about-sum {
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -494,9 +560,14 @@ h2 {
 	}
 	.project-title {
 		font-size: 28px;
-		line-height: 45px;
+		line-height: 35px;
 		
 	}
+	
+	.about-sum {
+		text-align: center;
+	}
+
 	.project-sum {
 		font-size: 15px;
 
@@ -506,15 +577,23 @@ h2 {
 		margin-top: -55px;
 		// margin-top: -80px;
 	}
+	.about-img {
+		width: 65%;
+		margin-top: 35px;
+		// margin-top: -80px;
+	}
 	h2 {
 		font-size: 30px;
+		line-height: 40px;
 	}
 	.more {
 		font-size: 30px;
 		margin-top: -35px;
+
 	}
 	.intro {
 		padding-bottom: 100px;
+
 	}
 	
 	.primary-header {
@@ -524,7 +603,7 @@ h2 {
 	}
 	h1 {
 		font-size: 40px;
-		margin-left: 30px;
+		margin-left: 0px;
 		position: relative;
 		top: -10px;
 
@@ -535,6 +614,10 @@ h2 {
 	}
 	.project-div {
 		width: 100%;
+	}
+	.about-sum {
+		width: 100%;
+		margin-top: -100px;
 	}
 	.content {
 		width: 100%;

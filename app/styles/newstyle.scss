@@ -285,7 +285,7 @@ a:hover {
 	margin-left: 55px;
 	width: 25%;
 	padding-bottom: 55px;
-	margin-top: -200px;
+	margin-top: 10px;
 }
 
 .about-sum {
@@ -294,7 +294,7 @@ a:hover {
 	padding-left: 40px;
 	margin-top: -20px;
 	position: relative;
-	top: 5px;
+	top: 75px;
 }
 .about-title {
 	display: inline-block;
@@ -398,6 +398,9 @@ a:hover {
 	.project-image {
 		width: 500px;
 	}
+	.about-img {
+		width: 20%;
+	}
 }
 
 @media only screen and (max-width: 980px){
@@ -417,6 +420,9 @@ a:hover {
 	}
 	.project-image {
 		width: 450px;
+	}
+	.about-img {
+		width: 25%;
 	}
 }
 

@@ -8,21 +8,40 @@ $linkblue: rgb(69, 139, 202);
 
 .ss-icon {
 	display: inline-block;
+}
+
+.head-icon {
+	display: inline-block;
 	font-size: 30px;
 	padding-right: 5px;
 	padding-left: 5px;
+	// margin: 0 auto;
 	// color: $fadedblack
 }
 
 body {
  	width: 100%;
- 	background: white;
+ 	background: gray;
 
+}
+
+.about-color {
+	color: white;
 }
 
 .content {
 	margin-top: 10px;
+	width: 1280px;
+	margin: 0 auto;
+	background: $fadedblack;
 
+}
+
+.container01 {
+	width: 1280px;
+	margin: 0 auto;
+	background: $fadedblack;
+	
 }
 
 a {
@@ -36,19 +55,23 @@ a {
 
 header {
 	position: fixed;
-	min-width: 940px;
+	max-width: 1280px;
 	height: 90px;
 	top: -11px;
-	z-index:100;
+	z-index: 2000;
 	width: 100%;
 	padding-top: 0px;
+	// margin: 0 auto;
+	text-align: center;
 }
 
 .primary-header {
 	background-color: white;
 	// height: 91px;
 	text-align: center;
-	box-shadow: 2px 2px 2px #444444;
+	box-shadow: 0px 2px 2px #444444;
+	z-index: 2000;
+	// margin: 0 auto;
 }
 
 h1 {
@@ -58,6 +81,8 @@ h1 {
     line-height: 65px;
 	display: inline-block;
 	text-transform: uppercase;
+	// margin: 0 auto;
+	text-align: center;
 }
 
 .head-link {
@@ -93,7 +118,7 @@ h1 {
 .intro {
 	position: relative;
 	top:80px;
-	background-color: $fadedblack;
+	background: $fadedblack;
 	color: white;
 	padding: 40px;
 	padding-bottom: 70px;
@@ -101,6 +126,8 @@ h1 {
 	margin-top: -10px;
 	z-index: -10;
 }
+
+
 
 .more {
 	color: $linkblue;
@@ -184,6 +211,15 @@ h2 {
 	color: white;
 }
 
+.fin-div {
+	background-color: white;
+}
+.mobber-div {
+	background-color: white;
+}
+.match-div {
+	background-color: white;
+}
 .chat-div {
 	// background-color: $linkblue;
 	background-color: $fadedblack;
@@ -283,7 +319,7 @@ a:hover {
 .about-img {
 	display: inline-block;
 	margin-left: 55px;
-	width: 20%;
+	width: 80%;
 	padding-bottom: 55px;
 	margin-top: 10px;
 }
@@ -303,6 +339,33 @@ a:hover {
 	padding-top: 50px;
 	width: 115%;
 
+}
+
+
+h2 {
+	z-index: 1000;
+}
+.intro {
+	z-index: 1000;
+}
+.more {
+	z-index: 1000;
+}
+a {
+	z-index: 1000;
+}
+
+.facebook-about {
+	color: white;
+}
+.twitter-about {
+	color: white;
+}
+.github-about {
+	color: white;
+}
+.wordpress-about {
+	color: white;
 }
 
 .slideshow {
@@ -360,6 +423,11 @@ a:hover {
 	padding: 30px;
 	color: white;
 }
+
+// .black-back {
+// 	background-color: $fadedblack;
+// 	color: white;
+// }
 
 @media only screen and (max-width: 1215px){
 	.project-description {
@@ -422,7 +490,7 @@ a:hover {
 		width: 450px;
 	}
 	.about-img {
-		width: 25%;
+		width: 80%;
 	}
 }
 
@@ -470,7 +538,7 @@ a:hover {
 	}
 }
 
-@media only screen and (max-width: 615px){
+@media only screen and (max-width: 641px){
 	.project-image {
 		width: 315px;
 	}
@@ -487,7 +555,7 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 634px){
 	.about-sum {
 		padding-left: 30px;
 	}
@@ -532,7 +600,7 @@ a:hover {
 		box-shadow: 2px 2px 2px #444444;
 	}
 	h1 {
-		font-size: 40px;
+		font-size: 50px;
 	}
 	.ss-icon {
 		font-size: 22px;
@@ -550,6 +618,12 @@ a:hover {
 
 	.about-sum {
 		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 535px){
+	h1 {
+		font-size: 40px;
 	}
 }
 
@@ -584,7 +658,7 @@ a:hover {
 		// margin-top: -80px;
 	}
 	.about-img {
-		width: 65%;
+		width: 80%;
 		margin-top: 35px;
 		// margin-top: -80px;
 	}
@@ -717,4 +791,5 @@ a:hover {
 // .art-title {
 // 	color: white;
 // }
+
 

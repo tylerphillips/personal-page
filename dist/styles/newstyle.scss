@@ -8,21 +8,19 @@ $linkblue: rgb(69, 139, 202);
 
 .ss-icon {
 	display: inline-block;
-	font-size: 30px;
 }
 
 .head-icon {
 	display: inline-block;
+	font-size: 30px;
 	padding-right: 5px;
 	padding-left: 5px;
-	position: relative;
-	top: -5px;
 	// margin: 0 auto;
 	// color: $fadedblack
 }
 
 body {
- 	// width: 100%;
+ 	width: 100%;
  	background: gray;
 
 }
@@ -33,11 +31,9 @@ body {
 
 .content {
 	margin-top: 10px;
-	max-width: 1280px;
+	width: 1280px;
 	margin: 0 auto;
 	background: $fadedblack;
-	width: 100%;
-
 
 }
 
@@ -67,8 +63,6 @@ header {
 	padding-top: 0px;
 	// margin: 0 auto;
 	text-align: center;
-	margin: 0 auto;
-
 }
 
 .primary-header {
@@ -77,7 +71,7 @@ header {
 	text-align: center;
 	box-shadow: 0px 2px 2px #444444;
 	z-index: 2000;
-	margin: 0 auto;
+	// margin: 0 auto;
 }
 
 h1 {
@@ -141,7 +135,7 @@ h1 {
 	font-size: 40px;
 	text-align: center;
 	cursor: pointer;
-	margin-top: -10px;
+	margin-top: -5px;
 	position: relative;
 	
 	width:100%;
@@ -158,7 +152,6 @@ h2 {
     font-size: 41px;
 	line-height: 54px;
 	text-align: center;
-	margin-bottom: 15px;
 }
 
 .project-div {
@@ -327,18 +320,17 @@ a:hover {
 	display: inline-block;
 	margin-left: 55px;
 	width: 80%;
-	position: relative;
-	top: -190px;
-	border-radius: 200px;
+	padding-bottom: 55px;
+	margin-top: 10px;
 }
 
 .about-sum {
 	display: inline-block;
 	width: 55%;
 	padding-left: 40px;
-	
+	margin-top: -20px;
 	position: relative;
-	
+	top: 75px;
 }
 .about-title {
 	display: inline-block;
@@ -364,27 +356,15 @@ a {
 }
 
 .facebook-about {
-	padding-right: 10px;
 	color: white;
 }
 .twitter-about {
-	padding-right: 10px;
 	color: white;
 }
 .github-about {
-	padding-right: 10px;
 	color: white;
 }
 .wordpress-about {
-	padding-right: 10px;
-	color: white;
-}
-.google-about {
-	padding-right: 10px;
-	color: white;
-}
-.email-about {
-	padding-right: 10px;
 	color: white;
 }
 
@@ -444,10 +424,6 @@ a {
 	color: white;
 }
 
-.about-icon:hover {
-	color: #428bca;
-}
-
 // .black-back {
 // 	background-color: $fadedblack;
 // 	color: white;
@@ -490,7 +466,9 @@ a {
 	.project-image {
 		width: 500px;
 	}
-	
+	.about-img {
+		width: 20%;
+	}
 }
 
 @media only screen and (max-width: 980px){
@@ -546,14 +524,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 733px){
-	
-	h1{
-		font-size: 55px;
-	}
-}
-
-@media only screen and (max-width: 690px){
+@media only screen and (max-width: 680px){
 	.primary-header {
 	}
 	.project-image {
@@ -565,12 +536,9 @@ a {
 	.project-sum {
 		font-size: 15px;
 	}
-	h1{
-		font-size: 50px;
-	}
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 641px){
 	.project-image {
 		width: 315px;
 	}
@@ -582,7 +550,7 @@ a {
 		left: 5px;
 	}
 	h1 {
-		font-size: 45px;
+		font-size: 55px;
 	}
 }
 
@@ -632,7 +600,7 @@ a {
 		box-shadow: 2px 2px 2px #444444;
 	}
 	h1 {
-		font-size: 45px;
+		font-size: 50px;
 	}
 	.ss-icon {
 		font-size: 22px;
@@ -653,7 +621,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 567px){
+@media only screen and (max-width: 535px){
 	h1 {
 		font-size: 40px;
 	}
@@ -714,11 +682,10 @@ a {
 		height: 100px;
 	}
 	h1 {
-		font-size: 35px;
+		font-size: 40px;
 		margin-left: 0px;
 		position: relative;
 		top: -10px;
-		margin-left: 5px;
 
 	}
 	.ss-icon {
@@ -738,38 +705,23 @@ a {
 		width: 100%;
 	}
 
-
 	.facebook {
-		left: 20px;
-		top: 70px;
-	}
-	.twitter {
 		left: 70px;
 		top: 70px;
 	}
-	.email {
+	.twitter {
 		left: 120px;
 		top: 70px;
 	}
-	.google {
+	.github {
 		left: 170px;
 		top: 70px;
 	}
-	.github {
+	.wordpress {
 		left: 220px;
 		top: 70px;
 	}
-	.wordpress {
-		left: 270px;
-		top: 70px;
-	}
-	.head-icon {
-	display: inline-block;
-	padding-right: -5px;
-	padding-left: 0px;
-	}
 }
-
 
 @media only screen and (max-width: 485px) and (max-height: 380px){
 	h2 {

@@ -23,7 +23,7 @@ $linkblue: rgb(69, 139, 202);
 
 body {
  	// width: 100%;
- 	background: gray;
+ 	background: white;
 
 }
 
@@ -185,10 +185,12 @@ h2 {
 	display: inline-block;
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     font-size: 45px;
-    line-height: 65px;
+    line-height: 45px;
     position: relative;
 	top: 40px;
-    border-bottom: solid 3px $fadedblack;
+	padding-bottom: 10px;
+	// text-align: center;
+    // border-bottom: solid 3px $fadedblack;
 }
 .project-sum {
 	display: inline-block;
@@ -208,7 +210,7 @@ h2 {
 }
 .lum-title {
 	color: white;
-	border-bottom: solid 3px white;
+	// border-bottom: solid 3px white;
 }
 .lum-text {
 	color: white;
@@ -233,11 +235,11 @@ h2 {
 }
 .chat-title {
 	color: white;
-	border-bottom: solid 3px white;
+	// border-bottom: solid 3px white;
 }
 .about-title {
 	color: white;
-	border-bottom: solid 3px white;
+	// border-bottom: solid 3px white;
 }
 .chat-text {
 	color: white;
@@ -821,13 +823,19 @@ a {
 }
 
 
-@media only screen and (max-width: 485px) and (max-height: 380px){
+@media only screen and (max-width: 485px) {
 	h2 {
 		font-size: 25px;
+		line-height: 30px;
 	}
 	.more {
 		font-size: 25px;
+		line-height: 30px;
 	}
+	.fin-div {
+		margin-top: 50px;
+	}
+
 }
 
 // @import url('http://fonts.googleapis.com/css?family=Lato');

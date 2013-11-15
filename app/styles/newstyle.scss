@@ -330,6 +330,7 @@ a:hover {
 	position: relative;
 	top: -190px;
 	border-radius: 200px;
+	border: solid 4px black;
 }
 
 .about-sum {
@@ -453,6 +454,13 @@ a {
 // 	color: white;
 // }
 
+.gal-div {
+	background-color: white;
+}
+
+
+
+
 @media only screen and (max-width: 1215px){
 	.project-description {
 		width: 40%;
@@ -512,7 +520,14 @@ a {
 		width: 450px;
 	}
 	.about-img {
-		width: 80%;
+		width: 75%;
+		// top: 30px;
+	}
+}
+
+@media only screen and (max-width: 890px){
+	.about-img {
+		top: 10px;
 	}
 }
 
@@ -657,6 +672,14 @@ a {
 	h1 {
 		font-size: 40px;
 	}
+	// .more {
+	// 	top: -30px;
+	// 	margin-bottom: 25px;
+
+	// }
+	// .intro {
+	// 	padding-bottom: 80px;
+	// }
 }
 
 @media only screen and (max-width: 500px){
@@ -690,9 +713,11 @@ a {
 		// margin-top: -80px;
 	}
 	.about-img {
-		width: 80%;
-		margin-top: 35px;
-		// margin-top: -80px;
+		width: 50%;
+		margin-top: 135px;
+		position: relative;
+		top: -120px;
+		left: 40px;
 	}
 	h2 {
 		font-size: 30px;
@@ -762,6 +787,31 @@ a {
 	.wordpress {
 		left: 270px;
 		top: 70px;
+	}
+	.facebook-about {
+		left: 40px;
+		bottom: 62px;
+
+	}
+	.twitter-about {
+		left: 90px;
+		
+	}
+	.email-about {
+		left: 140px;
+		
+	}
+	.google-about {
+		left: 190px;
+		
+	}
+	.github-about {
+		left: 240px;
+		
+	}
+	.wordpress-about {
+		left: 290px;
+		
 	}
 	.head-icon {
 	display: inline-block;

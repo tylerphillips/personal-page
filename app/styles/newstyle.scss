@@ -223,26 +223,38 @@ h2 {
 .lum-div {
 	// background-color: $linkblue;
 	background-color: $fadedblack;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .about-div {
 	// background-color: $linkblue;
 	background-color: $fadedblack;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .fin-div {
 	background-color: white;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .mobber-div {
 	background-color: white;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .match-div {
-	background-color: white;
+	background-color: $fadedblack;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .chat-div {
 	// background-color: $linkblue;
-	background-color: $fadedblack;
+	background-color: white;
+	padding-top: 75px;
+	padding-bottom: 85px;
 }
 .chat-title {
-	color: white;
+	color: $fadedblack;
 	// border-bottom: solid 3px white;
 }
 .about-title {
@@ -250,7 +262,7 @@ h2 {
 	// border-bottom: solid 3px white;
 }
 .chat-text {
-	color: white;
+	color: $fadedblack;
 }
 .mobber-title {
 	color: $fadedblack;
@@ -265,10 +277,10 @@ h2 {
 	color: $fadedblack;
 }
 .match-title {
-	color: $fadedblack;
+	color: white;
 }
 .match-text {
-	color: $fadedblack;
+	color: white;
 }
 .spotify-title {
 	color: $fadedblack;
@@ -461,6 +473,23 @@ a {
 	background-color: blue;
 	position: relative;
 	top: 740px;
+}
+
+.report {
+	padding-bottom: 15px;
+	color: $linkblue;
+}
+.report-text {
+	color: white
+}
+.report-text a {
+	color: white
+}
+.report-text:hover {
+	color: white;
+}
+.about-color a {
+	color: white;
 }
 
 

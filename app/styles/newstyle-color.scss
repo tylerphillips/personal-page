@@ -2,6 +2,12 @@ $fadedblack: #1A1A1A;
 $linkgrey: #AFAFAF;
 $linkblue: rgb(69, 139, 202);
 
+$dblack: #221E1D;
+$dbrown: #ECEAE0;
+$dgreen: #63AA9C;
+$dorange: #E9633B;
+
+
 .fork {
 	z-index: 101;
 }
@@ -211,60 +217,61 @@ h2 {
 	margin-top: 45px;
 }
 .lum-title {
-	color: white;
+	color: $dgreen;
 	// border-bottom: solid 3px white;
 }
 .lum-text {
-	color: white;
+	color: $dbrown;
 }
 
 .about-sum {
-	color: white;
+	color: $dbrown;
 }
 
 .lum-div {
 	// background-color: $linkblue;
-	background-color: $fadedblack;
+	background-color: #221E1D;
 	padding-top: 75px;
 	padding-bottom: 85px;
+	top: 80px;
 }
 .about-div {
 	// background-color: $linkblue;
-	background-color: $fadedblack;
+	background-color: #221E1D;
 	padding-top: 75px;
 	padding-bottom: 85px;
 }
 .fin-div {
-	background-color: white;
+	background-color: #ECEAE0;
 	padding-top: 75px;
 	padding-bottom: 85px;
 }
 .mobber-div {
-	background-color: white;
+	background-color: #ECEAE0;
 	padding-top: 75px;
 	padding-bottom: 85px;
 }
 .match-div {
-	background-color: $fadedblack;
+	background-color: #221E1D;
 	padding-top: 75px;
 	padding-bottom: 85px;
 }
 .chat-div {
 	// background-color: $linkblue;
-	background-color: white;
+	background-color: #ECEAE0;
 	padding-top: 75px;
 	padding-bottom: 85px;
 }
 .chat-title {
-	color: $fadedblack;
+	color: $dorange;
 	// border-bottom: solid 3px white;
 }
 .about-title {
-	color: white;
+	color: $dgreen;
 	// border-bottom: solid 3px white;
 }
 .chat-text {
-	color: $fadedblack;
+	color: $dblack;
 }
 .mobber-title {
 	color: $fadedblack;

@@ -1,3 +1,8 @@
+$('.toggle').on('click', function(e) {
+  e.preventDefault();
+  $('.badges').toggleClass('open');
+});
+
 // $(function () {
 //   $('.slide-list').wrap('<div class="slideshow"></div>');
 //   $('.slideshow').append('<img alt="" src="" /><div class="img-cap"></div>');
